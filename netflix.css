@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+.box{
+    background-image: url('late\ back.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    display: flex;   
+}
+ul{
+    margin-right: 170px;
+    position: relative;
+    bottom: 20px;
+}
+.sign{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    padding: 7px 0;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.sign:hover{
+    background-color:  rgb(211, 11, 11);
+}
+.img{
+    margin-left: 130px;
+    position: relative;
+    bottom: 20px;
+}
+.new{
+    text-align: center;
+    margin-top: 150px;
+}
+h1{
+    margin-bottom: 18px;
+    font-size: 45px;
+}
+.first{
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+.second{
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+input{
+    padding: 7px 9px 7px 9px;
+}
+.third{
+    width: 300px;
+    height: 7vh;
+    border-radius: 5px;
+    border-color:rgba(255, 255, 255, 0.171);
+    font-size: 15px;
+    background-color: hwb(0 0% 100% / 0.733);
+    color: white;
+    outline: none;
+}
+.fourth{
+    height: 7vh;
+    width: 200px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.fourth:hover{
+    background-color: rgb(211, 11, 11);
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.521);
+}
+.newdiv{
+    background-color: black;
+    color: white;
+}
+hr{
+    height: 1vh;
+    background-color: rgb(80, 80, 80);
+    border: none;
+}
+.image{
+    position: relative;
+    top: 30px;
+    width: 500px;
+    left: 150px;
+}
+h2, .paragraph{
+    margin-left:770px;
+    position: relative;
+    bottom: 230px;
+    right: 70px;
+    
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+.paragraph{
+    font-size: 20px;
+    letter-spacing: normal;
+}
+.question{
+    background-color: black;
+    color: white;
+}
+h3{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 35px;
+    position: relative;
+    top: 20px;
+}
+.dan, .y, .z, .w, .v{
+    background-color:  rgb(31, 31, 31);
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 25px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.dan:hover,
+ .y:hover,
+  .z:hover,
+   .w:hover,
+    .v:hover{
+    background-color: gray;
+}
+.e{
+    background-color: rgb(31, 31, 31);
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.e:hover{
+    background-color: gray;
+}
+.yes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ne{
+    text-align: center;
+}
+/* the end of this code */
